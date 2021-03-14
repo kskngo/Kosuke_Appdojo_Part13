@@ -13,6 +13,7 @@
 		21B86CA125F8E69B006D152C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B86C9F25F8E69B006D152C /* Main.storyboard */; };
 		21B86CA325F8E69E006D152C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B86CA225F8E69E006D152C /* Assets.xcassets */; };
 		21B86CA625F8E69E006D152C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B86CA425F8E69E006D152C /* LaunchScreen.storyboard */; };
+		E5AFFC1725FDAA0100692FF4 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AFFC1625FDAA0100692FF4 /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		21B86CA225F8E69E006D152C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21B86CA525F8E69E006D152C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21B86CA725F8E69E006D152C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5AFFC1625FDAA0100692FF4 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				21B86C9925F8E69B006D152C /* AppDelegate.swift */,
 				21B86C9B25F8E69B006D152C /* SceneDelegate.swift */,
 				2145B48425FADD47003D60AB /* TableViewController.swift */,
+				E5AFFC1625FDAA0100692FF4 /* ItemCell.swift */,
 				21B86C9F25F8E69B006D152C /* Main.storyboard */,
 				21B86CA225F8E69E006D152C /* Assets.xcassets */,
 				21B86CA425F8E69E006D152C /* LaunchScreen.storyboard */,
@@ -158,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5AFFC1725FDAA0100692FF4 /* ItemCell.swift in Sources */,
 				21B86C9A25F8E69B006D152C /* AppDelegate.swift in Sources */,
 				21B86C9C25F8E69B006D152C /* SceneDelegate.swift in Sources */,
 				2145B48525FADD47003D60AB /* TableViewController.swift in Sources */,
